@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>JAVASCRIPT</title>
+</head>
+<body>
+    
+    <h1 class="tituloejercicios">EJERCICIO 6</h1>
+
+    <div class="palabra">
+        <h2>Registro de usuarios</h2>
+
+        <form action="" id="formulario ">
+            <label for="">Tipo de documento</label>
+
+            <select name="" id="tipodoc">
+                <option value="0">Seleccione un tipo de documento</option>
+                <option value="1">Cedula de ciudadania</option>
+                <option value="2">Tarjeta de identidad</option>
+                <option value="3">Pasaporte</option>
+            </select>
+            <div id="f-nodoc">
+                <label for="">No. Documento</label>
+                <input type="text" id="numdoc">
+            </div>
+
+            <div id="f-nombre">
+                <label for="">Nombre</label>
+                <input type="text" id="nombre">
+            </div>
+
+            <div id="f-apellido">
+                <label for="">Apellido</label>
+                <input type="text" id="apellido">
+            </div>
+
+            <div id="f-fecha">
+                <label for="">Fecha Nacimiento</label>
+                <input type="date" id="fecha">
+            </div>
+
+            <div id="f-correo">
+                <label for="">Correo electronico</label>
+                <input type="text" id="correo">
+            </div>
+            
+            <div id="f-contraseña">
+                <label for="">Contraseña</label>
+                <input type="password" id="contraseña">
+            </div>
+
+            <div id="f-contraseña2">
+                <label for="">Comprobar contraseña</label>
+                <input type="password" id="contraseña2">
+            </div>
+
+            <div class="conte4">
+                <input type="checkbox" id="abrir"><a>Acepto Terminos y condiciones</a>
+            </div>
+
+            <div class="modal-container" id="modal_container">
+                <div class="modal">
+                    <div class="modaltitulo">
+                        <h2>Términos y Condiciones</h2>
+                    </div>
+
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        Ex aspernatur porro itaque maxime debitis ipsam quos vel, 
+                        deleniti dolor dicta! 
+                        Quod esse placeat iure ad provident harum iusto ex totam.
+                    </p>
+
+                    <button id="cerrar">Aceptar</button>
+                </div>
+            </div>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <script src="js/ejercicio6.js"></script>
+</body>
+</html>
