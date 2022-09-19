@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Source+Serif+Pro:wght@300&display=swap');
+
+/*
+    Titulo: font-family: 'Merriweather', serif;
+    Texto: font-family: 'Source Serif Pro', serif;
+*/
+
+
+/*ESTILOS INDEX*/
+body{
+    background-image: url(../img/fondo1.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+body h1{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: black;
+}
+
+.conte1{
+    font-family: 'Source Serif Pro', serif;
+    background-color: rgba(212, 154, 46, 0.863);
+    margin: 0px 500px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.conte1 a{
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.tituloejercicios{
+    margin-top: 30px;
+    text-align: center;
+}
+
+/*EJERCICIO 1*/
+
+.palabra{
+    font-family: 'Source Serif Pro', serif;
+    background-color: rgba(131, 93, 10, 0.712);
+    margin: 10px 500px;
+    padding: 10px;
+    text-align: center;
+}
+
+.palabra label{
+    color: #fff;
+}
+
+.palabra input,select{
+    width: 270px;
+    margin-top: 5px;
+    border: none;
+    height: 20px;
+    border-radius: 3px;
+    outline: none;
+    font-size: 15px;
+}
+
+.palabra button{
+    font-family: 'Source Serif Pro', serif;
+    background-color: #f1b4d1;
+    margin: 10px 0px;
+    font-size: 17px;
+    border: none;
+    border-radius: 3px;
+    width: 200px;
+}
+
+.palabra button:hover{
+    background-color: rgba(131, 93, 10, 0.712);
+    color: #fff;
+}
+
+/*EJERCICIO 2*/
+
+/*EJERCICIO 3*/
+
+.triangulo{
+    font-family: 'Source Serif Pro', serif;
+    margin: 10px 320px;
+    padding: 10px;
+    text-align: justify;
+}
+
+/*EJERCICIO 4*/
+
+.figuras{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+/*EJERCICIO 6*/
+
+#cerrar{
+    color: #fff;
+    background: rgba(131, 93, 10, 0.712);;
+    font-size: 15px;
+    padding: 2px 10px;
+    display: block;
+    width: 95px;
+    height: 30px;
+    margin: 0px auto;
+    border: none;
+}
+
+.modal-container{
+    background-color: rgba(255, 255, 255, 0.747);
+    display: flex;
+    position: fixed;
+    pointer-events: none;
+    bottom: 100px;
+    left: 510px;
+    width: 300px;
+    height: 400px;
+    opacity: 0;
+}
+
+.show{
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.modal{
+    width: 500px;
+    max-width: 100%;
+}
+
+.modaltitulo{
+    width: 100%;
+    height: 70px;
+}
+
+.modaltitulo h2{
+    padding: 18px 70px;
+}
+
+.modal p{
+    padding: 30px;
+    text-align: justify;
+}
