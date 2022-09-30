@@ -25,54 +25,139 @@
             <br>
 
             <div>
-                <button type="button" data-bs-toggle="modal" data-bs-target="#myModal" class="btn btn-outline-dark">
+                <button type="button" class="btn btn-outline-dark" id="abrircirculo">
                     Perimetro
                 </button>
-            </div>
-             
-                <!-- The Modal -->
-                <div class="modal" id="myModal">
-                    <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-             
-                            <!-- Modal Header -->
-                            <div class="modal-header">
-                                <h4 class="modal-title">Perimetro Circulo</h4>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                            </div>
-             
-                            <!-- Modal body -->
-                            <div class="modal-body">
-                                <label for="">Ingrese el radio del circulo</label>
 
-                                <input type="number" id="radioc">
+                <!-----------------MODAL CIRCULO PERIMETRO-------------->
+                <div class="modalfiguras" id="modalcirculo">
+                    <div class="cuerpofiguras">
+                        <h2>Perimetro del Circulo</h2>
 
-                                <br>
+                        <label for="">Ingrese el radio del circulo</label>
 
-                                <button class="btn btn-outline-dark">Calcular</button>
-                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
-                            </div>
-                        </div>
+                        <input type="number" id="radiocp">
+
+                        <br>
+                        <br>
+
+                        <button id="calcularcirculop" class="botones">Calcular</button>
+                        <br>
+                        <br>
+                        <button id="cerrarcirculo" class="bototnes">Cerrar</button>
                     </div>
                 </div>
+
+                <br>
+                <br>
+
+                <button type="button" class="btn btn-outline-dark" id="abriracirculo">
+                    Area
+                </button>
+
+                <!-----------------MODAL CIRCULO AREA-------------->
+                <div class="modalfiguras" id="modalcirculoa">
+                    <div class="cuerpofiguras">
+                        <h2>Area del Circulo</h2>
+
+                        <label for="">Ingrese el radio del circulo</label>
+
+                        <input type="number" id="radioca">
+
+                        <br>
+                        <br>
+
+                        <button id="calcularcirculoa" class="botones">Calcular</button>
+                        <br>
+                        <br>
+                        <button id="cerrarcirculoa" class="botones">Cerrar</button>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div>
+        <div class="trian">
             <h3>Triangulo</h3>
-            <img src="img/ejercicio5/circulo.png">
+            <img src="img/ejercicio5/triangulo.jpg">
+
+            <br>
+            <br>
+
+            <div>
+                <button type="button" class="btn btn-outline-dark" id="abrirtriangulop">
+                    Perimetro
+                </button>
+
+                <!-----------------MODAL Triangulo PERIMETRO-------------->
+                <div class="modalfigurastri" id="modaltriangulop">
+                    <div class="cuerpofiguras">
+                        <h2>Perimetro del Triangulo</h2>
+
+                        <label for="">Ingrese el lado uno</label>
+
+                        <input type="number" id="valortri1">
+
+                        <label for="">Ingrese el lado dos</label>
+
+                        <input type="number" id="valortri2">
+                        
+                        <label for="">Ingrese el lado tres</label>
+
+                        <input type="number" id="valortri3">
+
+                        <br>
+                        <br>
+
+                        <button id="calculartriangulop" class="botones">Calcular</button>
+                        <br>
+                        <br>
+                        <button id="cerrartriangulop" class="botones">Cerrar</button>
+                    </div>
+                </div>
+
+                <br>
+                <br>
+
+                <button type="button" class="btn btn-outline-dark" id="abrirtrianguloa">
+                    Area
+                </button>
+
+                <!-----------------MODAL TRIANGULO AREA-------------->
+                <div class="modalfigurastria" id="modaltrianguloa">
+                    <div class="cuerpofiguras">
+                        <h2>Area del Triangulo</h2>
+
+                        <label for="">Ingrese la base del triangulo</label>
+
+                        <input type="number" id="basetri">
+
+                        <label for="">Ingrese la altura del triangulo</label>
+
+                        <input type="number" id="alturatri">
+
+                        <br>
+                        <br>
+
+                        <button id="calculartrianguloa" class="botones">Calcular</button>
+                        <br>
+                        <br>
+                        <button id="cerrartrianguloa" class="botones">Cerrar</button>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div>
-            <h3>Rectangulo</h3>
-            <img src="img/ejercicio5/circulo.png">
-        </div>
-
-        <div>
+        <div class="cuadra">
             <h3>Cuadrado</h3>
-            <img src="img/ejercicio5/circulo.png">
+            <img src="img/ejercicio5/cuadrado.jpg">
+        </div>
+
+        <div class="recta">
+            <h3>Rectangulo</h3>
+            <img src="img/ejercicio5/rectangulo.jpg">
         </div>
     </div>
 
-    <br>    
+    <script src="js/ejercicio5.js"></script> 
 </body>
 </html>

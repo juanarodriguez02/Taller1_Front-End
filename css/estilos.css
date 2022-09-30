@@ -42,6 +42,21 @@ body h1{
     text-align: center;
 }
 
+.botones{
+    font-family: 'Source Serif Pro', serif;
+    background-color: #f1b4d1;
+    margin: 10px 0px;
+    font-size: 17px;
+    border: none;
+    border-radius: 3px;
+    width: 200px;
+}
+
+.botones:hover{
+    background-color: rgba(131, 93, 10, 0.712);
+    color: #fff;
+}
+
 /*EJERCICIO 1*/
 
 .palabra{
@@ -81,8 +96,6 @@ body h1{
     color: #fff;
 }
 
-/*EJERCICIO 2*/
-
 /*EJERCICIO 3*/
 
 .triangulo{
@@ -94,10 +107,93 @@ body h1{
 
 /*EJERCICIO 4*/
 
+/*EJERCICIO 5*/
+
 .figuras{
+    margin-top: 50px;
     text-align: center;
+    justify-content: center;
     display: flex;
     flex-direction: row;
+}
+
+.trian img{
+    width: 180px;
+    margin-top: 30px;
+}
+
+.cuadra img{
+    width: 250px;
+    margin-top: 20px;
+}
+
+.recta img{
+    width: 250px;
+    margin-top: 20px;
+}
+
+/*MODA CIRCULO*/
+
+#cerrarcirculo{
+    color: #fff;
+    background: rgba(131, 93, 10, 0.712);;
+    font-size: 15px;
+    padding: 2px 10px;
+    display: block;
+    width: 95px;
+    height: 30px;
+    margin: 0px auto;
+    border: none;
+}
+
+.modalfiguras{
+    background-color: rgba(255, 255, 255, 0.747);
+    display: flex;
+    position: fixed;
+    pointer-events: none;
+    bottom: 160px;
+    left: 510px;
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+}
+
+.show{
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.cuerpofiguras{
+    width: 500px;
+    max-width: 100%;
+}
+
+.cuerpofiguras h2{
+    padding: 18px 70px;
+}
+
+.modalfigurastri{
+    background-color: rgba(255, 255, 255, 0.747);
+    display: flex;
+    position: fixed;
+    pointer-events: none;
+    bottom: 60px;
+    left: 510px;
+    width: 300px;
+    height: 480px;
+    opacity: 0;
+}
+
+.modalfigurastria{
+    background-color: rgba(255, 255, 255, 0.747);
+    display: flex;
+    position: fixed;
+    pointer-events: none;
+    bottom: 60px;
+    left: 510px;
+    width: 300px;
+    height: 420px;
+    opacity: 0;
 }
 
 /*EJERCICIO 6*/
