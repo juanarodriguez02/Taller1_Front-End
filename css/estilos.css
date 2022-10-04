@@ -243,52 +243,44 @@ body h1{
     opacity: 0;
 }
 
-/*EJERCICIO 6*/
+/*================FORMULARIO================*/
 
-#cerrar{
-    color: #fff;
-    background: rgba(131, 93, 10, 0.712);;
-    font-size: 15px;
-    padding: 2px 10px;
-    display: block;
-    width: 95px;
-    height: 30px;
-    margin: 0px auto;
-    border: none;
-}
+    /*==========MODAL==========*/
 
-.modal-container{
-    background-color: rgba(255, 255, 255, 0.747);
-    display: flex;
-    position: fixed;
-    pointer-events: none;
-    bottom: 100px;
-    left: 510px;
-    width: 300px;
-    height: 400px;
-    opacity: 0;
-}
+    .modalform{
+        background-color: rgba(255, 255, 255, 0.747);
+        display: flex;
+        position: fixed;
+        pointer-events: none;
+        bottom: 200px;
+        left: 510px;
+        width: 300px;
+        height: 300px;
+        opacity: 0;
+    }
 
-.show{
-    pointer-events: auto;
-    opacity: 1;
-}
+    .modal{
+        width: 500px;
+        max-width: 100%;
+    }
 
-.modal{
-    width: 500px;
-    max-width: 100%;
-}
+    .modal h2{
+        padding: 10px 0px;
+    }
 
-.modaltitulo{
-    width: 100%;
-    height: 70px;
-}
+    #cerrar{
+        color: #fff;
+        background: rgba(131, 93, 10, 0.712);;
+        font-size: 15px;
+        padding: 2px 10px;
+        display: block;
+        width: 95px;
+        height: 30px;
+        margin: 0px auto;
+        border: none;
+    }
 
-.modaltitulo h2{
-    padding: 18px 70px;
-}
-
-.modal p{
-    padding: 30px;
-    text-align: justify;
-}
+    .showform{
+        pointer-events: auto;
+        opacity: 1;
+    }

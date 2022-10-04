@@ -1,47 +1,43 @@
-/*LONGITUD*/
+    /*LONGITUD*/
 
-let button = document.getElementById("longi");
-    button.onclick = longitud;
+    function longitud() {
 
-    function longitud(evento) {
+        const palabra = document.getElementById('palabra').value;
         
-        palabralongi=prompt("Ingrese una palabra")
-
-        alert("La longitud de la palabra es "+palabralongi.length)
+        alert("La longitud de la palabra es "+palabra.length)
     }
 
-/*MAYUSCULAS
+    longi.addEventListener('click',longitud);
 
-let button = document.getElementById("mayus"); 
-    button.onclick = mayusculas;
+    /*MAYUSCULAS*/
 
-    function mayusculas(evento){
+    function mayusculas(){
     
-        palabramayus=prompt("Ingrese una palabra")
+        const palabra = document.getElementById('palabra').value;
     
-        alert("La palabra en mayusculas es "+palabramayus.toUpperCase())
+        alert("La palabra en mayusculas es "+palabra.toUpperCase())
     }
 
-/*MINUSCULAS
+    mayus.addEventListener('click',mayusculas);
 
-let button = document.getElementById("minus"); 
-    button.onclick = minusculas;
+    /*MINUSCULAS*/
+  
+    function minusculas(){
     
-    function minusculas(evento){
+        const palabra = document.getElementById('palabra').value;
+
+        alert("La palabra en minusculas es "+palabra.toLowerCase())
+    }
+
+    minus.addEventListener('click',minusculas);
+
+    /*CARACTER*/
+
+    function caracter(){
     
-    palabraminus=prompt("Ingrese una palabra")
+        const palabra = document.getElementById('palabra').value;
 
-    alert("La palabra en minusculas es "+palabraminus.toLowerCase())
-}
+        alert("El primer caracter de la palabra es "+palabra.charAt())
+    }
 
-/*CARACTER
-
-let button = document.getElementById("caracter"); 
-    button.onclick = caracter;
-    
-    function caracter(evento){
-    
-    palabracarac=prompt("Ingrese una palabra")
-
-    alert("El primer caracter de la palabra es "+palabracarac.charAt())
-}*/
+    carac.addEventListener('click',caracter);
