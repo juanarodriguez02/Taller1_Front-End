@@ -66,13 +66,13 @@
 
     function perimetrotriangulo(){
         let valortri1 = document.getElementById("valortri1").value;
-        valortri1 = parseInt(valortri1)
+        parseInt(valortri1)
 
         let valortri2 = document.getElementById("valortri2").value;
-        valortri2 = parseInt(valortri2)
+        parseInt(valortri2)
 
         let valortri3 = document.getElementById("valortri3").value;
-        valortri3 = parseInt(valortri3)
+        parseInt(valortri3)
 
         calculo = valortri1+valortri2+valortri3
         alert("El perimetro del triangulo es "+calculo)
@@ -106,3 +106,110 @@
     }
 
     calculartrianguloa.addEventListener('click',areatriangulo);
+
+/*================MODAL CUADRADO===============*/
+
+    /*=====MODAL Y FUNCIÓN PERIMETRO=====*/
+
+    const abrircuadradop = document.getElementById('abrircuadradop');
+    const modalcuadradop = document.getElementById('modalcuadradop');
+    const cerrarcuadradop = document.getElementById('cerrarcuadradop');
+
+    abrircuadradop  .addEventListener('click', () => {
+        modalcuadradop.classList.add('show');
+    });
+
+    cerrarcuadradop.addEventListener('click', () => {
+        modalcuadradop.classList.remove('show');
+    });
+
+    function perimetrocuadrado(){
+        let ladoscua = document.getElementById("ladoscua").value;
+        parseInt(ladoscua)
+        
+        calculo = ladoscua*4
+        alert("El perimetro del cuadrado es "+calculo)
+    }
+
+    calcularcuadradop.addEventListener('click',perimetrocuadrado);
+
+    /*=====MODAL Y FUNCIÓN AREA=====*/
+
+    const abrircuadradoa = document.getElementById('abrircuadradoa');
+    const modalcuadradoa = document.getElementById('modalcuadradoa');
+    const cerrarcuadradoa = document.getElementById('cerrarcuadradoa');
+
+    abrircuadradoa  .addEventListener('click', () => {
+        modalcuadradoa.classList.add('show');
+    });
+
+    cerrarcuadradoa.addEventListener('click', () => {
+        modalcuadradoa.classList.remove('show');
+    });
+
+    function areacuadrado(){
+        let unlado = document.getElementById("unlado").value;
+        parseInt(unlado)
+        
+        calculo = unlado*unlado
+        alert("El area del cuadrado es "+calculo)
+    }
+
+    calcularcuadradoa.addEventListener('click',areacuadrado);
+
+/*================MODAL RECTANGULO===============*/
+
+    /*=====MODAL Y FUNCIÓN PERIMETRO=====*/
+
+    const abrirrectangulop = document.getElementById('abrirrectangulop');
+    const modalrectangulop = document.getElementById('modalrectangulop');
+    const cerrarrectangulop = document.getElementById('cerrarrectangulop');
+
+    abrirrectangulop  .addEventListener('click', () => {
+        modalrectangulop.classList.add('show');
+    });
+
+    cerrarrectangulop.addEventListener('click', () => {
+        modalrectangulop.classList.remove('show');
+    });
+
+    function perimetrorectangulo(){
+        let baserec = document.getElementById("baserec").value;
+        parseInt(baserec)
+        
+        let alturarec = document.getElementById("alturarec").value;
+        parseInt(alturarec)
+        
+        calculo = (baserec*2)+(alturarec*2)
+        alert("El perimetro del rectangulo es "+calculo)
+    }
+
+    calcularrectangulop.addEventListener('click',perimetrorectangulo);
+
+    /*=====MODAL Y FUNCIÓN AREA=====*/
+
+    const abrirrectanguloa = document.getElementById('abrirrectanguloa');
+    const modalrectanguloa = document.getElementById('modalrectanguloa');
+    const cerrarrectanguloa = document.getElementById('cerrarrectanguloa');
+
+    abrirrectanguloa  .addEventListener('click', () => {
+        modalrectanguloa.classList.add('show');
+    });
+
+    cerrarrectanguloa.addEventListener('click', () => {
+        modalrectanguloa.classList.remove('show');
+    });
+
+    function arearectangulo(){
+        let basereca = document.getElementById("basereca").value;
+        parseInt(basereca)
+        
+        let alturareca = document.getElementById("alturareca").value;
+        parseInt(alturareca)
+        
+        calculo = basereca*alturareca
+                
+        alert("El area del rectangulo es "+calculo)
+    }
+
+    calcularrectanguloa.addEventListener('click',arearectangulo);

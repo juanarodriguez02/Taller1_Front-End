@@ -123,16 +123,29 @@ body h1{
 }
 
 .cuadra img{
-    width: 250px;
-    margin-top: 20px;
+    width: 230px;
 }
 
 .recta img{
-    width: 250px;
-    margin-top: 20px;
+    width: 220px;
+    margin-top: 30px;
 }
 
-/*MODA CIRCULO*/
+.show{
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.cuerpofiguras{
+    width: 500px;
+    max-width: 100%;
+}
+
+.cuerpofiguras h2{
+    padding: 18px 70px;
+}
+
+/*MODAL CIRCULO*/
 
 #cerrarcirculo{
     color: #fff;
@@ -158,20 +171,6 @@ body h1{
     opacity: 0;
 }
 
-.show{
-    pointer-events: auto;
-    opacity: 1;
-}
-
-.cuerpofiguras{
-    width: 500px;
-    max-width: 100%;
-}
-
-.cuerpofiguras h2{
-    padding: 18px 70px;
-}
-
 .modalfigurastri{
     background-color: rgba(255, 255, 255, 0.747);
     display: flex;
@@ -185,6 +184,54 @@ body h1{
 }
 
 .modalfigurastria{
+    background-color: rgba(255, 255, 255, 0.747);
+    display: flex;
+    position: fixed;
+    pointer-events: none;
+    bottom: 60px;
+    left: 510px;
+    width: 300px;
+    height: 420px;
+    opacity: 0;
+}
+
+.modalfigurascuap{
+    background-color: rgba(255, 255, 255, 0.747);
+    display: flex;
+    position: fixed;
+    pointer-events: none;
+    bottom: 60px;
+    left: 510px;
+    width: 300px;
+    height: 420px;
+    opacity: 0;
+}
+
+.modalfigurascuaa{
+    background-color: rgba(255, 255, 255, 0.747);
+    display: flex;
+    position: fixed;
+    pointer-events: none;
+    bottom: 60px;
+    left: 510px;
+    width: 300px;
+    height: 420px;
+    opacity: 0;
+}
+
+.modalfigurasrecp{
+    background-color: rgba(255, 255, 255, 0.747);
+    display: flex;
+    position: fixed;
+    pointer-events: none;
+    bottom: 60px;
+    left: 510px;
+    width: 300px;
+    height: 420px;
+    opacity: 0;
+}
+
+.modalfigurasreca{
     background-color: rgba(255, 255, 255, 0.747);
     display: flex;
     position: fixed;
