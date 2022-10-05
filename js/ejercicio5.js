@@ -57,11 +57,11 @@
     const cerrartriangulop = document.getElementById('cerrartriangulop');
 
     abrirtriangulop.addEventListener('click', () => {
-        modaltriangulop.classList.add('show');
+        modaltriangulop.classList.add('showtri');
     });
 
     cerrartriangulop.addEventListener('click', () => {
-        modaltriangulop.classList.remove('show');
+        modaltriangulop.classList.remove('showtri');
     });
 
     function perimetrotriangulo(){
@@ -87,11 +87,11 @@
     const cerrartrianguloa = document.getElementById('cerrartrianguloa');
 
     abrirtrianguloa  .addEventListener('click', () => {
-        modaltrianguloa.classList.add('show');
+        modaltrianguloa.classList.add('showtri');
     });
 
     cerrartrianguloa.addEventListener('click', () => {
-        modaltrianguloa.classList.remove('show');
+        modaltrianguloa.classList.remove('showtri');
     });
 
     function areatriangulo(){
@@ -116,11 +116,11 @@
     const cerrarcuadradop = document.getElementById('cerrarcuadradop');
 
     abrircuadradop  .addEventListener('click', () => {
-        modalcuadradop.classList.add('show');
+        modalcuadradop.classList.add('showcua');
     });
 
     cerrarcuadradop.addEventListener('click', () => {
-        modalcuadradop.classList.remove('show');
+        modalcuadradop.classList.remove('showcua');
     });
 
     function perimetrocuadrado(){
@@ -140,11 +140,11 @@
     const cerrarcuadradoa = document.getElementById('cerrarcuadradoa');
 
     abrircuadradoa  .addEventListener('click', () => {
-        modalcuadradoa.classList.add('show');
+        modalcuadradoa.classList.add('showcua');
     });
 
     cerrarcuadradoa.addEventListener('click', () => {
-        modalcuadradoa.classList.remove('show');
+        modalcuadradoa.classList.remove('showcua');
     });
 
     function areacuadrado(){
@@ -166,11 +166,11 @@
     const cerrarrectangulop = document.getElementById('cerrarrectangulop');
 
     abrirrectangulop  .addEventListener('click', () => {
-        modalrectangulop.classList.add('show');
+        modalrectangulop.classList.add('showrec');
     });
 
     cerrarrectangulop.addEventListener('click', () => {
-        modalrectangulop.classList.remove('show');
+        modalrectangulop.classList.remove('showrec');
     });
 
     function perimetrorectangulo(){
@@ -193,11 +193,11 @@
     const cerrarrectanguloa = document.getElementById('cerrarrectanguloa');
 
     abrirrectanguloa  .addEventListener('click', () => {
-        modalrectanguloa.classList.add('show');
+        modalrectanguloa.classList.add('showrec');
     });
 
     cerrarrectanguloa.addEventListener('click', () => {
-        modalrectanguloa.classList.remove('show');
+        modalrectanguloa.classList.remove('showrec');
     });
 
     function arearectangulo(){

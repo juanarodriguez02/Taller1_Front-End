@@ -88,10 +88,10 @@ inputs.forEach((input) => {
 	input.addEventListener('blur', validacionform);
 });
 
-form.addEventListener('submit', (e) => {
+/*form.addEventListener('submit', (e) => {
 	e.preventDefault();
 
-	const terminos = document.getElementById('abrirform'); //HTML MODAL
+	const terminos = document.getElementById('abrirform');
 	if(campos.nodoc && campos.nombre && campos.apellido && campos.contraseña && campos.correo && terminos.checked ){
 		formulario.reset();
 
@@ -106,4 +106,18 @@ form.addEventListener('submit', (e) => {
 	} else {
 		document.getElementById('mensaje').classList.add('mensajeactivo');
 	}
-});
+});*/
+
+/*==========MODAL=========*/
+
+	const abrirform = document.getElementById('abrirform');
+    const modalform = document.getElementById('modalform');
+    const cerrarform = document.getElementById('cerrarform');
+
+    abrirform.addEventListener('click', () => {
+        modalform.classList.add('showform');
+    });
+
+    cerrarform.addEventListener('click', () => {
+        modalform.classList.remove('showform');
+    });

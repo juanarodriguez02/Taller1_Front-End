@@ -154,7 +154,7 @@ body h1{
     bottom: 160px;
     left: 510px;
     width: 300px;
-    height: 300px;
+    height: 330px;
     opacity: 0;
 }
 
@@ -196,6 +196,11 @@ body h1{
     opacity: 0;
 }
 
+.showtri{
+    pointer-events: auto;
+    opacity: 1;
+}
+
 .modalfigurascuap{
     background-color: rgba(255, 255, 255, 0.747);
     display: flex;
@@ -218,6 +223,11 @@ body h1{
     width: 300px;
     height: 420px;
     opacity: 0;
+}
+
+.showcua{
+    pointer-events: auto;
+    opacity: 1;
 }
 
 .modalfigurasrecp{
@@ -244,6 +254,10 @@ body h1{
     opacity: 0;
 }
 
+.showrec{
+    pointer-events: auto;
+    opacity: 1;
+}
 
 /*EJERCICIO 6*/
 
@@ -259,38 +273,28 @@ body h1{
     border: none;
 }
 
-.modal-container{
-    background-color: rgba(255, 255, 255, 0.747);
-    display: flex;
-    position: fixed;
-    pointer-events: none;
-    bottom: 100px;
-    left: 510px;
-    width: 300px;
-    height: 400px;
-    opacity: 0;
-}
-
-.show{
-    pointer-events: auto;
-    opacity: 1;
-}
-
 .modal{
     width: 500px;
     max-width: 100%;
 }
 
-.modaltitulo{
-    width: 100%;
-    height: 70px;
-}
-
-.modaltitulo h2{
+.modal h2{
     padding: 18px 70px;
 }
 
-.modal p{
-    padding: 30px;
-    text-align: justify;
+.modalform{
+    background-color: rgba(255, 255, 255, 0.87);
+    display: flex;
+    position: fixed;
+    pointer-events: none;
+    bottom: 200px;
+    left: 510px;
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+}
+
+.showform{
+    pointer-events: auto;
+    opacity: 1;
 }
