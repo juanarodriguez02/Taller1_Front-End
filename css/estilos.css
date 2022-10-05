@@ -123,29 +123,16 @@ body h1{
 }
 
 .cuadra img{
-    width: 230px;
+    width: 250px;
+    margin-top: 20px;
 }
 
 .recta img{
-    width: 220px;
-    margin-top: 30px;
+    width: 250px;
+    margin-top: 20px;
 }
 
-.show{
-    pointer-events: auto;
-    opacity: 1;
-}
-
-.cuerpofiguras{
-    width: 500px;
-    max-width: 100%;
-}
-
-.cuerpofiguras h2{
-    padding: 18px 70px;
-}
-
-/*MODAL CIRCULO*/
+/*MODA CIRCULO*/
 
 #cerrarcirculo{
     color: #fff;
@@ -169,6 +156,20 @@ body h1{
     width: 300px;
     height: 300px;
     opacity: 0;
+}
+
+.show{
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.cuerpofiguras{
+    width: 500px;
+    max-width: 100%;
+}
+
+.cuerpofiguras h2{
+    padding: 18px 70px;
 }
 
 .modalfigurastri{
@@ -243,44 +244,53 @@ body h1{
     opacity: 0;
 }
 
-/*================FORMULARIO================*/
 
-    /*==========MODAL==========*/
+/*EJERCICIO 6*/
 
-    .modalform{
-        background-color: rgba(255, 255, 255, 0.747);
-        display: flex;
-        position: fixed;
-        pointer-events: none;
-        bottom: 200px;
-        left: 510px;
-        width: 300px;
-        height: 300px;
-        opacity: 0;
-    }
+#cerrar{
+    color: #fff;
+    background: rgba(131, 93, 10, 0.712);;
+    font-size: 15px;
+    padding: 2px 10px;
+    display: block;
+    width: 95px;
+    height: 30px;
+    margin: 0px auto;
+    border: none;
+}
 
-    .modal{
-        width: 500px;
-        max-width: 100%;
-    }
+.modal-container{
+    background-color: rgba(255, 255, 255, 0.747);
+    display: flex;
+    position: fixed;
+    pointer-events: none;
+    bottom: 100px;
+    left: 510px;
+    width: 300px;
+    height: 400px;
+    opacity: 0;
+}
 
-    .modal h2{
-        padding: 10px 0px;
-    }
+.show{
+    pointer-events: auto;
+    opacity: 1;
+}
 
-    #cerrar{
-        color: #fff;
-        background: rgba(131, 93, 10, 0.712);;
-        font-size: 15px;
-        padding: 2px 10px;
-        display: block;
-        width: 95px;
-        height: 30px;
-        margin: 0px auto;
-        border: none;
-    }
+.modal{
+    width: 500px;
+    max-width: 100%;
+}
 
-    .showform{
-        pointer-events: auto;
-        opacity: 1;
-    }
+.modaltitulo{
+    width: 100%;
+    height: 70px;
+}
+
+.modaltitulo h2{
+    padding: 18px 70px;
+}
+
+.modal p{
+    padding: 30px;
+    text-align: justify;
+}

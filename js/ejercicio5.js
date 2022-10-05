@@ -66,13 +66,13 @@
 
     function perimetrotriangulo(){
         let valortri1 = document.getElementById("valortri1").value;
-        parseInt(valortri1)
+        valortri1 = parseInt(valortri1)
 
         let valortri2 = document.getElementById("valortri2").value;
-        parseInt(valortri2)
+        valortri2 = parseInt(valortri2)
 
         let valortri3 = document.getElementById("valortri3").value;
-        parseInt(valortri3)
+        valortri3 = parseInt(valortri3)
 
         calculo = valortri1+valortri2+valortri3
         alert("El perimetro del triangulo es "+calculo)
